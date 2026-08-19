@@ -15,13 +15,21 @@
       "iconURL": "https://raw.githubusercontent.com/rrogerc/youtube-noshorts/main/icon.png",
       "tintColor": "FF0000",
       "category": "social",
-      "version": "21.28.3",
+      "version": "21.28.3.1",
       "versionDate": "2026-08-19",
-      "versionDescription": "Initial build. YouTube 21.28.3 with YTLite + NoShortsEver. Shorts removed at the code level.",
-      "downloadURL": "https://github.com/rrogerc/youtube-noshorts/releases/download/v21.28.3/YouTube-NoShorts-21.28.3.ipa",
-      "size": 122016512,
+      "versionDescription": "Adds Google sign-in fix (SSORPCService fingerprint-strip) so login works. Shorts still fully removed.",
+      "downloadURL": "https://github.com/rrogerc/youtube-noshorts/releases/download/v21.28.3.1/YouTube-NoShorts-21.28.3.1.ipa",
+      "size": 122017205,
       "minOSVersion": "16.0",
       "versions": [
+        {
+          "version": "21.28.3.1",
+          "date": "2026-08-19",
+          "localizedDescription": "Adds Google sign-in fix (SSORPCService fingerprint-strip) so login works. Shorts still fully removed.",
+          "downloadURL": "https://github.com/rrogerc/youtube-noshorts/releases/download/v21.28.3.1/YouTube-NoShorts-21.28.3.1.ipa",
+          "size": 122017205,
+          "minOSVersion": "16.0"
+        },
         {
           "version": "21.28.3",
           "date": "2026-08-19",
