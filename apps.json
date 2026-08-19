@@ -1,0 +1,36 @@
+{
+  "name": "YouTube (No Shorts)",
+  "identifier": "com.rogerchen.youtube-noshorts",
+  "subtitle": "YouTube with Shorts removed",
+  "description": "Personal SideStore source hosting a build of YouTube with Shorts removed at the code level (YTLite + a custom NoShortsEver tweak).",
+  "iconURL": "https://raw.githubusercontent.com/rrogerc/youtube-noshorts/main/icon.png",
+  "tintColor": "FF0000",
+  "apps": [
+    {
+      "name": "YouTube",
+      "bundleIdentifier": "com.google.ios.youtube",
+      "developerName": "rogerchen",
+      "subtitle": "Shorts removed (tab + feed).",
+      "localizedDescription": "YouTube with Shorts permanently removed.\n\nBuilt from YTLite plus a custom tweak (NoShortsEver) that unconditionally strips:\n• The Shorts button in the navigation bar\n• Shorts shelves and cells in every feed and search result\n• Launch-resume into the Shorts player\n\nAlso inherits YTLite's ad-blocking and background playback. Based on stock YouTube 21.28.3.",
+      "iconURL": "https://raw.githubusercontent.com/rrogerc/youtube-noshorts/main/icon.png",
+      "tintColor": "FF0000",
+      "category": "social",
+      "version": "21.28.3",
+      "versionDate": "2026-08-19",
+      "versionDescription": "Initial build. YouTube 21.28.3 with YTLite + NoShortsEver. Shorts removed at the code level.",
+      "downloadURL": "https://github.com/rrogerc/youtube-noshorts/releases/download/v21.28.3/YouTube-NoShorts-21.28.3.ipa",
+      "size": 122016512,
+      "minOSVersion": "16.0",
+      "versions": [
+        {
+          "version": "21.28.3",
+          "date": "2026-08-19",
+          "localizedDescription": "Initial build. YouTube 21.28.3 with YTLite + NoShortsEver. Shorts removed at the code level.",
+          "downloadURL": "https://github.com/rrogerc/youtube-noshorts/releases/download/v21.28.3/YouTube-NoShorts-21.28.3.ipa",
+          "size": 122016512,
+          "minOSVersion": "16.0"
+        }
+      ]
+    }
+  ]
+}
