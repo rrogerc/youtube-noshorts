@@ -15,13 +15,21 @@
       "iconURL": "https://raw.githubusercontent.com/rrogerc/youtube-noshorts/main/icon.png",
       "tintColor": "FF0000",
       "category": "social",
-      "version": "21.28.3.6",
+      "version": "21.28.3",
       "versionDate": "2026-08-20",
-      "versionDescription": "Reverted the YTUHD playback-fix experiment: it crashed on launch on the 21.28.3 base. Back to the known-good YTLite + NoShortsEver build (same as 21.28.3.4). Shorts removed, sign-in URL fix, relaunch scheme. Signed-out playback on 21.x still cuts off after ~1 min; sign-in is the next thing to try.",
-      "downloadURL": "https://github.com/rrogerc/youtube-noshorts/releases/download/v21.28.3.6/YouTube-NoShorts-21.28.3.6.ipa",
-      "size": 122018009,
+      "versionDescription": "Reports the genuine YouTube version (21.28.3) to InnerTube. Earlier 21.28.3.x builds advertised a four-component version that is not a real YouTube release, which is the documented trigger for the 'Something went wrong' playback cutoff. Requires DELETE + REINSTALL (the version number goes down). Same Shorts removal.",
+      "downloadURL": "https://github.com/rrogerc/youtube-noshorts/releases/download/v21.28.3-clean/YouTube-NoShorts-21.28.3.ipa",
+      "size": 122018008,
       "minOSVersion": "16.0",
       "versions": [
+        {
+          "version": "21.28.3",
+          "date": "2026-08-20",
+          "localizedDescription": "Reports the genuine YouTube version (21.28.3) to InnerTube. Earlier 21.28.3.x builds advertised a four-component version that is not a real YouTube release, which is the documented trigger for the 'Something went wrong' playback cutoff. Requires DELETE + REINSTALL (the version number goes down). Same Shorts removal.",
+          "downloadURL": "https://github.com/rrogerc/youtube-noshorts/releases/download/v21.28.3-clean/YouTube-NoShorts-21.28.3.ipa",
+          "size": 122018008,
+          "minOSVersion": "16.0"
+        },
         {
           "version": "21.28.3.6",
           "date": "2026-08-20",
