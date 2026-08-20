@@ -1,0 +1,36 @@
+{
+  "name": "YT No Shorts (AB test)",
+  "identifier": "com.rogerchen.ytnoshorts.ab",
+  "subtitle": "YouTube with Shorts removed + YTABConfig",
+  "description": "Experimental build: adds YTABConfig so InnerTube A/B flags can be overridden on-device.",
+  "iconURL": "https://raw.githubusercontent.com/rrogerc/youtube-noshorts/main/icon.png",
+  "tintColor": "FF0000",
+  "apps": [
+    {
+      "name": "YouTube",
+      "bundleIdentifier": "com.google.ios.youtube",
+      "developerName": "rogerchen",
+      "subtitle": "Shorts removed + A/B flag control.",
+      "localizedDescription": "YouTube with Shorts permanently removed, plus YTABConfig for overriding InnerTube A/B flags.\n\nBase YouTube 21.20.4 + YTLite 5.2.2 + NoShortsEver + YTABConfig 1.9.2.\n\nExperiment: override iosClientGlobalConfigDisableIosPoTokens to test whether skipping PoToken minting avoids the playback cutoff.",
+      "iconURL": "https://raw.githubusercontent.com/rrogerc/youtube-noshorts/main/icon.png",
+      "tintColor": "FF0000",
+      "category": "social",
+      "version": "21.20.4",
+      "versionDate": "2026-08-20",
+      "versionDescription": "Adds YTABConfig 1.9.2 to the 21.20.4 + YTLite 5.2.2 + NoShortsEver build.",
+      "downloadURL": "https://github.com/rrogerc/youtube-noshorts/releases/download/v21.20.4-ab/YouTube-NoShorts-21.20.4-ab.ipa",
+      "size": 133190027,
+      "minOSVersion": "16.0",
+      "versions": [
+        {
+          "version": "21.20.4",
+          "date": "2026-08-20",
+          "localizedDescription": "Adds YTABConfig 1.9.2 to the 21.20.4 + YTLite 5.2.2 + NoShortsEver build.",
+          "downloadURL": "https://github.com/rrogerc/youtube-noshorts/releases/download/v21.20.4-ab/YouTube-NoShorts-21.20.4-ab.ipa",
+          "size": 133190027,
+          "minOSVersion": "16.0"
+        }
+      ]
+    }
+  ]
+}
