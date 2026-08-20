@@ -15,13 +15,21 @@
       "iconURL": "https://raw.githubusercontent.com/rrogerc/youtube-noshorts/main/icon.png",
       "tintColor": "FF0000",
       "category": "social",
-      "version": "21.28.3.2",
+      "version": "21.28.3.3",
       "versionDate": "2026-08-19",
-      "versionDescription": "Neutralizes any Short that still opens (channel Shorts tab, links, search) by reopening it in the normal video player, and never resumes into the Shorts feed.",
-      "downloadURL": "https://github.com/rrogerc/youtube-noshorts/releases/download/v21.28.3.2/YouTube-NoShorts-21.28.3.2.ipa",
-      "size": 122017354,
+      "versionDescription": "Fixes the first-launch 'Safari can't open sidestore-...' error by registering SideStore/AltStore relaunch URL schemes. Shorts removal unchanged.",
+      "downloadURL": "https://github.com/rrogerc/youtube-noshorts/releases/download/v21.28.3.3/YouTube-NoShorts-21.28.3.3.ipa",
+      "size": 121964634,
       "minOSVersion": "16.0",
       "versions": [
+        {
+          "version": "21.28.3.3",
+          "date": "2026-08-19",
+          "localizedDescription": "Fixes the first-launch 'Safari can't open sidestore-...' error by registering SideStore/AltStore relaunch URL schemes. Shorts removal unchanged.",
+          "downloadURL": "https://github.com/rrogerc/youtube-noshorts/releases/download/v21.28.3.3/YouTube-NoShorts-21.28.3.3.ipa",
+          "size": 121964634,
+          "minOSVersion": "16.0"
+        },
         {
           "version": "21.28.3.2",
           "date": "2026-08-19",
