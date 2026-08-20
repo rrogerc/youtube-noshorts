@@ -1,6 +1,6 @@
 {
-  "name": "YouTube (No Shorts)",
-  "identifier": "com.rogerchen.youtube-noshorts",
+  "name": "YouTube No Shorts v2",
+  "identifier": "com.rogerchen.ytnoshorts.v2",
   "subtitle": "YouTube with Shorts removed",
   "description": "Personal SideStore source hosting a build of YouTube with Shorts removed at the code level (YTLite + a custom NoShortsEver tweak).",
   "iconURL": "https://raw.githubusercontent.com/rrogerc/youtube-noshorts/main/icon.png",
