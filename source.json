@@ -11,23 +11,23 @@
       "bundleIdentifier": "com.google.ios.youtube",
       "developerName": "rogerchen",
       "subtitle": "Shorts removed (tab + feed).",
-      "localizedDescription": "YouTube with Shorts permanently removed.\n\nThe NoShortsEver tweak unconditionally strips:\n• The Shorts button in the navigation bar\n• Shorts shelves and cells in feeds, search results, and channels\n• Any Short that still opens is reopened in the normal video player\n\nBase: YouTube 21.28.3 with stock YTLite 5.2b3 (ad-blocking, background playback).",
+      "localizedDescription": "YouTube with Shorts permanently removed.\n\nThe NoShortsEver tweak unconditionally strips:\n• The Shorts button in the navigation bar\n• Shorts shelves and cells in feeds, search results, and channels\n• Any Short that still opens is reopened in the normal video player\n\nMinimal build - stock YouTube 21.28.3 plus this one tweak, nothing else.",
       "iconURL": "https://raw.githubusercontent.com/rrogerc/youtube-noshorts/main/icon.png",
       "tintColor": "FF0000",
       "category": "social",
       "version": "21.28.3",
       "versionDate": "2026-08-20",
-      "versionDescription": "YouTube 21.28.3 (passes the forced-update wall that blocks 19.33.2 and 20.32.4) paired with stock YTLite 5.2b3 instead of 5.2.2. Issue #364 reports 5.2b3 playing fine where 5.2b4+ cut off on the same base. Shorts removal via NoShortsEver. Genuine version string.",
-      "downloadURL": "https://github.com/rrogerc/youtube-noshorts/releases/download/v21.28.3-ytl52b3/YouTube-NoShorts-21.28.3-ytl52b3.ipa",
-      "size": 129129072,
+      "versionDescription": "Minimal build: stock YouTube 21.28.3 with only the NoShortsEver tweak. YTLite removed entirely - crash logs showed YTLite 5.2b3 crashing on this base, and 5.2.2 is the version reported to break playback. Shorts removal is unaffected (NoShortsEver is self-sufficient). No ad-blocking or background playback.",
+      "downloadURL": "https://github.com/rrogerc/youtube-noshorts/releases/download/v21.28.3-minimal/YouTube-NoShorts-21.28.3-minimal.ipa",
+      "size": 120699420,
       "minOSVersion": "16.0",
       "versions": [
         {
           "version": "21.28.3",
           "date": "2026-08-20",
-          "localizedDescription": "YouTube 21.28.3 (passes the forced-update wall that blocks 19.33.2 and 20.32.4) paired with stock YTLite 5.2b3 instead of 5.2.2. Issue #364 reports 5.2b3 playing fine where 5.2b4+ cut off on the same base. Shorts removal via NoShortsEver. Genuine version string.",
-          "downloadURL": "https://github.com/rrogerc/youtube-noshorts/releases/download/v21.28.3-ytl52b3/YouTube-NoShorts-21.28.3-ytl52b3.ipa",
-          "size": 129129072,
+          "localizedDescription": "Minimal build: stock YouTube 21.28.3 with only the NoShortsEver tweak. YTLite removed entirely - crash logs showed YTLite 5.2b3 crashing on this base, and 5.2.2 is the version reported to break playback. Shorts removal is unaffected (NoShortsEver is self-sufficient). No ad-blocking or background playback.",
+          "downloadURL": "https://github.com/rrogerc/youtube-noshorts/releases/download/v21.28.3-minimal/YouTube-NoShorts-21.28.3-minimal.ipa",
+          "size": 120699420,
           "minOSVersion": "16.0"
         }
       ]
