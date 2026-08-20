@@ -1,11 +1,16 @@
 # YouTube without Shorts, in the browser
 
-The native sideloaded app is a dead end — YouTube's server-side attestation cuts
-playback after a few seconds on any sideloaded build, and that can't be patched
-from userland (see the verdict in the top-level `CLAUDE.md`). The web version has
-none of those walls: sign-in works, playback never cuts off, and Shorts can be
-removed *more* completely than the native tweak managed — including the
-channel-page Shorts tab.
+> **Update (2026-08-20): the native sideloaded app now works** — see the ✅ WORKING
+> section in the top-level `CLAUDE.md`. Playback stops cutting off once the app is
+> signed in via an account already present on the device. This browser kit is kept
+> as a fallback and is still useful if the native build ever breaks again (e.g. a
+> lost keychain session or a tightened server policy).
+
+Sideloaded YouTube cuts playback after ~1 minute while **signed out** — a
+server-side Proof-of-Origin/attestation guard that can't be patched from userland.
+The web version has none of those walls: sign-in works, playback never cuts off,
+and Shorts can be removed *more* completely than the native tweak managed —
+including the channel-page Shorts tab.
 
 **`youtube-no-shorts.user.js` does everything in one file.** It hides the Shorts
 tab, the shelves, and every individual Short, and it opens any Short you do reach

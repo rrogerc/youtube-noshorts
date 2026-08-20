@@ -11,23 +11,23 @@
       "bundleIdentifier": "com.google.ios.youtube",
       "developerName": "rogerchen",
       "subtitle": "Shorts removed (tab + feed).",
-      "localizedDescription": "YouTube with Shorts permanently removed.\n\nThe NoShortsEver tweak unconditionally strips:\n• The Shorts button in the navigation bar\n• Shorts shelves and cells in feeds, search results, and channels\n• Any Short that still opens is reopened in the normal video player\n\nBase YouTube 21.20.4 with YTLite 5.2.2 (ad-blocking, background playback, sideload identity spoofing).",
+      "localizedDescription": "YouTube with Shorts permanently removed.\n\nThe NoShortsEver tweak unconditionally strips:\n\u2022 The Shorts button in the navigation bar\n\u2022 Shorts shelves and cells in feeds, search results, and channels\n\u2022 Any Short that still opens is reopened in the normal video player\n\nBase YouTube 21.20.4 with YTLite 5.2.2 (ad-blocking, background playback, sideload identity spoofing).",
       "iconURL": "https://raw.githubusercontent.com/rrogerc/youtube-noshorts/main/icon.png",
       "tintColor": "FF0000",
       "category": "social",
       "version": "21.20.4",
       "versionDate": "2026-08-20",
-      "versionDescription": "YouTube 21.20.4 (closest available to YTLite's confirmed-good 21.16.2) with current YTLite 5.2.2 and NoShortsEver. Restores the identity spoofing the minimal build was missing.",
-      "downloadURL": "https://github.com/rrogerc/youtube-noshorts/releases/download/v21.20.4/YouTube-NoShorts-21.20.4.ipa",
-      "size": 133143392,
+      "versionDescription": "KNOWN-GOOD build: YouTube 21.20.4 + YTLite 5.2.2 + NoShortsEver + YTABConfig 1.9.2. Playback and sign-in both work when signed in via an account already on the device.",
+      "downloadURL": "https://github.com/rrogerc/youtube-noshorts/releases/download/v21.20.4-ab/YouTube-NoShorts-21.20.4-ab.ipa",
+      "size": 133190027,
       "minOSVersion": "16.0",
       "versions": [
         {
           "version": "21.20.4",
           "date": "2026-08-20",
-          "localizedDescription": "YouTube 21.20.4 (closest available to YTLite's confirmed-good 21.16.2) with current YTLite 5.2.2 and NoShortsEver. Restores the identity spoofing the minimal build was missing.",
-          "downloadURL": "https://github.com/rrogerc/youtube-noshorts/releases/download/v21.20.4/YouTube-NoShorts-21.20.4.ipa",
-          "size": 133143392,
+          "localizedDescription": "KNOWN-GOOD build: YouTube 21.20.4 + YTLite 5.2.2 + NoShortsEver + YTABConfig 1.9.2. Playback and sign-in both work when signed in via an account already on the device.",
+          "downloadURL": "https://github.com/rrogerc/youtube-noshorts/releases/download/v21.20.4-ab/YouTube-NoShorts-21.20.4-ab.ipa",
+          "size": 133190027,
           "minOSVersion": "16.0"
         }
       ]
