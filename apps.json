@@ -19,7 +19,7 @@
       "versionDate": "2026-08-19",
       "versionDescription": "21.28.3 base with an added decoder-level playback fix (YTUHD 'Fix playback issues'). After installing, open Settings > YTUHD and turn ON 'Fix playback issues', then force-quit and reopen YouTube. Testing whether this clears the 21.x 'Something went wrong' cutoff without needing an older base. Same Shorts removal, sign-in URL fix, and relaunch-scheme fix.",
       "downloadURL": "https://github.com/rrogerc/youtube-noshorts/releases/download/v21.28.3.5/YouTube-NoShorts-21.28.3.5.ipa",
-      "size": 122093056,
+      "size": 122091931,
       "minOSVersion": "16.0",
       "versions": [
         {
@@ -27,7 +27,7 @@
           "date": "2026-08-19",
           "localizedDescription": "21.28.3 base with an added decoder-level playback fix (YTUHD 'Fix playback issues'). After installing, open Settings > YTUHD and turn ON 'Fix playback issues', then force-quit and reopen YouTube. Testing whether this clears the 21.x 'Something went wrong' cutoff without needing an older base. Same Shorts removal, sign-in URL fix, and relaunch-scheme fix.",
           "downloadURL": "https://github.com/rrogerc/youtube-noshorts/releases/download/v21.28.3.5/YouTube-NoShorts-21.28.3.5.ipa",
-          "size": 122093056,
+          "size": 122091931,
           "minOSVersion": "16.0"
         },
         {
