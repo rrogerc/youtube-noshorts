@@ -29,46 +29,6 @@
           "downloadURL": "https://github.com/rrogerc/youtube-noshorts/releases/download/v21.28.3-ytl52b3/YouTube-NoShorts-21.28.3-ytl52b3.ipa",
           "size": 129129072,
           "minOSVersion": "16.0"
-        },
-        {
-          "version": "20.32.4",
-          "date": "2026-08-20",
-          "localizedDescription": "Pairs stock YTLite 5.2b3 with YouTube 20.32.4 - the exact combination a user reported playing fine in YTLite issue #364, where 5.2b4 broke playback on the same base. All previous builds used YTLite 5.2.2, much newer than any version reported working. Shorts removal via NoShortsEver. Requires DELETE + REINSTALL (version goes down).",
-          "downloadURL": "https://github.com/rrogerc/youtube-noshorts/releases/download/v20.32.4/YouTube-NoShorts-20.32.4.ipa",
-          "size": 119911300,
-          "minOSVersion": "15.0"
-        },
-        {
-          "version": "21.28.3",
-          "date": "2026-08-20",
-          "localizedDescription": "Reports the genuine YouTube version (21.28.3) to InnerTube. Earlier 21.28.3.x builds advertised a four-component version that is not a real YouTube release, which is the documented trigger for the 'Something went wrong' playback cutoff. Requires DELETE + REINSTALL (the version number goes down). Same Shorts removal.",
-          "downloadURL": "https://github.com/rrogerc/youtube-noshorts/releases/download/v21.28.3-clean/YouTube-NoShorts-21.28.3-clean.ipa",
-          "size": 122018008,
-          "minOSVersion": "16.0"
-        },
-        {
-          "version": "21.28.3.6",
-          "date": "2026-08-20",
-          "localizedDescription": "Reverted the YTUHD playback-fix experiment: it crashed on launch on the 21.28.3 base. Back to the known-good YTLite + NoShortsEver build (same as 21.28.3.4). Shorts removed, sign-in URL fix, relaunch scheme. Signed-out playback on 21.x still cuts off after ~1 min; sign-in is the next thing to try.",
-          "downloadURL": "https://github.com/rrogerc/youtube-noshorts/releases/download/v21.28.3.6/YouTube-NoShorts-21.28.3.6.ipa",
-          "size": 122018009,
-          "minOSVersion": "16.0"
-        },
-        {
-          "version": "21.28.3.5",
-          "date": "2026-08-19",
-          "localizedDescription": "21.28.3 base with an added decoder-level playback fix (YTUHD 'Fix playback issues'). After installing, open Settings > YTUHD and turn ON 'Fix playback issues', then force-quit and reopen YouTube. Testing whether this clears the 21.x 'Something went wrong' cutoff without needing an older base. Same Shorts removal, sign-in URL fix, and relaunch-scheme fix.",
-          "downloadURL": "https://github.com/rrogerc/youtube-noshorts/releases/download/v21.28.3.5/YouTube-NoShorts-21.28.3.5.ipa",
-          "size": 122091931,
-          "minOSVersion": "16.0"
-        },
-        {
-          "version": "19.33.2",
-          "date": "2026-08-19",
-          "localizedDescription": "Rebuilt on YouTube 19.33.2 to fix the 'Something went wrong' playback cutoff (newer YouTube enforces a server-side integrity check that breaks sideloaded playback). Same Shorts removal, sign-in fix, and relaunch-scheme fix. Sign-in may work again on this older base.",
-          "downloadURL": "https://github.com/rrogerc/youtube-noshorts/releases/download/v19.33.2/YouTube-NoShorts-19.33.2.ipa",
-          "size": 101214793,
-          "minOSVersion": "15.0"
         }
       ]
     }
