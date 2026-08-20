@@ -11,56 +11,24 @@
       "bundleIdentifier": "com.google.ios.youtube",
       "developerName": "rogerchen",
       "subtitle": "Shorts removed (tab + feed).",
-      "localizedDescription": "YouTube with Shorts permanently removed.\n\nBuilt from YTLite plus a custom tweak (NoShortsEver) that unconditionally strips:\n• The Shorts button in the navigation bar\n• Shorts shelves and cells in every feed and search result\n• Launch-resume into the Shorts player\n\nAlso inherits YTLite's ad-blocking and background playback. Based on stock YouTube 21.28.3.",
+      "localizedDescription": "YouTube with Shorts permanently removed.\n\nBuilt from YTLite plus a custom tweak (NoShortsEver) that unconditionally strips:\n• The Shorts button in the navigation bar\n• Shorts shelves and cells in every feed, search result, and channel\n• Any Short that still opens is reopened in the normal video player\n\nAlso inherits YTLite's ad-blocking and background playback.\n\nBased on stock YouTube 19.33.2 — an older base chosen because newer YouTube versions (20.x/21.x) enforce a server-side integrity check that cuts off playback on sideloaded apps (the 'Something went wrong' error).",
       "iconURL": "https://raw.githubusercontent.com/rrogerc/youtube-noshorts/main/icon.png",
       "tintColor": "FF0000",
       "category": "social",
-      "version": "21.28.3.4",
+      "version": "19.33.2",
       "versionDate": "2026-08-19",
-      "versionDescription": "Fixes channel Shorts: hooks the base reel player YouTube 21.x actually uses, so any Short (channel Shorts tab, links, search) reopens in the normal video player instead of the swipe feed.",
-      "downloadURL": "https://github.com/rrogerc/youtube-noshorts/releases/download/v21.28.3.4/YouTube-NoShorts-21.28.3.4.ipa",
-      "size": 121965256,
-      "minOSVersion": "16.0",
+      "versionDescription": "Rebuilt on YouTube 19.33.2 to fix the 'Something went wrong' playback cutoff (newer YouTube enforces a server-side integrity check that breaks sideloaded playback). Same Shorts removal, sign-in fix, and relaunch-scheme fix. Sign-in may work again on this older base.",
+      "downloadURL": "https://github.com/rrogerc/youtube-noshorts/releases/download/v19.33.2/YouTube-NoShorts-19.33.2.ipa",
+      "size": 101214793,
+      "minOSVersion": "15.0",
       "versions": [
         {
-          "version": "21.28.3.4",
+          "version": "19.33.2",
           "date": "2026-08-19",
-          "localizedDescription": "Fixes channel Shorts: hooks the base reel player YouTube 21.x actually uses, so any Short (channel Shorts tab, links, search) reopens in the normal video player instead of the swipe feed.",
-          "downloadURL": "https://github.com/rrogerc/youtube-noshorts/releases/download/v21.28.3.4/YouTube-NoShorts-21.28.3.4.ipa",
-          "size": 121965256,
-          "minOSVersion": "16.0"
-        },
-        {
-          "version": "21.28.3.3",
-          "date": "2026-08-19",
-          "localizedDescription": "Fixes the first-launch 'Safari can't open sidestore-...' error by registering SideStore/AltStore relaunch URL schemes. Shorts removal unchanged.",
-          "downloadURL": "https://github.com/rrogerc/youtube-noshorts/releases/download/v21.28.3.3/YouTube-NoShorts-21.28.3.3.ipa",
-          "size": 121964634,
-          "minOSVersion": "16.0"
-        },
-        {
-          "version": "21.28.3.2",
-          "date": "2026-08-19",
-          "localizedDescription": "Neutralizes any Short that still opens (channel Shorts tab, links, search) by reopening it in the normal video player, and never resumes into the Shorts feed.",
-          "downloadURL": "https://github.com/rrogerc/youtube-noshorts/releases/download/v21.28.3.2/YouTube-NoShorts-21.28.3.2.ipa",
-          "size": 122017354,
-          "minOSVersion": "16.0"
-        },
-        {
-          "version": "21.28.3.1",
-          "date": "2026-08-19",
-          "localizedDescription": "Adds Google sign-in fix (SSORPCService fingerprint-strip) so login works. Shorts still fully removed.",
-          "downloadURL": "https://github.com/rrogerc/youtube-noshorts/releases/download/v21.28.3.1/YouTube-NoShorts-21.28.3.1.ipa",
-          "size": 122017205,
-          "minOSVersion": "16.0"
-        },
-        {
-          "version": "21.28.3",
-          "date": "2026-08-19",
-          "localizedDescription": "Initial build. YouTube 21.28.3 with YTLite + NoShortsEver. Shorts removed at the code level.",
-          "downloadURL": "https://github.com/rrogerc/youtube-noshorts/releases/download/v21.28.3/YouTube-NoShorts-21.28.3.ipa",
-          "size": 122016512,
-          "minOSVersion": "16.0"
+          "localizedDescription": "Rebuilt on YouTube 19.33.2 to fix the 'Something went wrong' playback cutoff (newer YouTube enforces a server-side integrity check that breaks sideloaded playback). Same Shorts removal, sign-in fix, and relaunch-scheme fix. Sign-in may work again on this older base.",
+          "downloadURL": "https://github.com/rrogerc/youtube-noshorts/releases/download/v19.33.2/YouTube-NoShorts-19.33.2.ipa",
+          "size": 101214793,
+          "minOSVersion": "15.0"
         }
       ]
     }
