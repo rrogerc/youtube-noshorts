@@ -1,50 +1,75 @@
-# Browser route — YouTube without Shorts
+# YouTube without Shorts, in the browser
 
-The web version of YouTube has none of the walls the sideloaded app runs into: no
-integrity cutoff, no forced-update block, and sign-in works normally. Shorts removal
-is also *more* complete here than in the native tweak, because filter rules can hide
-the channel-page Shorts tab that the native hooks never could.
+The native sideloaded app is a dead end — YouTube's server-side attestation cuts
+playback after a few seconds on any sideloaded build, and that can't be patched
+from userland (see the verdict in the top-level `CLAUDE.md`). The web version has
+none of those walls: sign-in works, playback never cuts off, and Shorts can be
+removed *more* completely than the native tweak managed — including the
+channel-page Shorts tab.
 
-Two setups. Pick one.
+**`youtube-no-shorts.user.js` does everything in one file.** It hides the Shorts
+tab, the shelves, and every individual Short, and it opens any Short you do reach
+in the normal player. Use it with either browser below.
 
-## Option A — Orion + uBlock Origin (most complete)
+---
 
-Orion (by Kagi, free on the App Store) runs real Firefox/Chrome extensions on iOS.
+## Which browser?
 
-1. Install **Orion** from the App Store.
-2. Install **uBlock Origin** from within Orion (Settings → Extensions → get it from the
-   Firefox add-on store).
-3. uBlock Origin → Settings → **Filter lists** → **Import** → paste this URL:
+| | Orion | Safari |
+|---|---|---|
+| Background audio (screen off / other app) | **Yes** | No, PiP only |
+| Runs the userscript | Yes (Violentmonkey) | Yes (Userscripts) |
+| Ad blocking | uBlock Origin | AdGuard / Wipr |
+| Feel | Extra app | Native, best battery |
+
+**Pick Orion if you want background audio** — YouTube keeps playing when you lock
+the phone, which is the thing YTLite gave you and Safari won't do. Pick Safari if
+you'd rather stay native and don't care about background playback.
+
+---
+
+## Option A — Orion (recommended)
+
+1. Install **Orion Browser** (by Kagi) from the App Store — free.
+2. Install **Violentmonkey**: Orion → Settings → Extensions → browse the Firefox
+   add-on store → Violentmonkey.
+3. Install **uBlock Origin** the same way, for ads.
+4. Open Violentmonkey → **+ New script** → paste the contents of
+   `youtube-no-shorts.user.js` → Save. Or open the raw URL and Violentmonkey will
+   offer to install it:
    ```
-   https://raw.githubusercontent.com/rrogerc/youtube-noshorts/main/browser/no-shorts.txt
+   https://raw.githubusercontent.com/rrogerc/youtube-noshorts/main/browser/youtube-no-shorts.user.js
    ```
-4. For the Shorts→normal-player redirect, install a userscript manager extension
-   (e.g. Violentmonkey) and add `shorts-to-watch.user.js` from this folder.
-5. Open `m.youtube.com`, then **Share → Add to Home Screen** for an app-style icon.
+5. Enable background audio: Orion → Settings → check that media playback in the
+   background is on.
+6. Go to `m.youtube.com`, sign in, then **Share → Add to Home Screen**.
 
-## Option B — Safari + AdGuard (simplest)
+## Option B — Safari
 
-1. Install **AdGuard for iOS** (free) from the App Store.
-2. Settings → Safari → Extensions → enable AdGuard's content blockers.
-3. In AdGuard: **Settings → Filters → User rules** → paste the contents of
-   `no-shorts.txt` (the `!` comment lines can stay; they are ignored).
-4. Open `m.youtube.com` in Safari → **Share → Add to Home Screen**.
+1. Install **Userscripts** from the App Store (free, open source, by Justin Wasack).
+2. Settings → Apps → Safari → Extensions → enable **Userscripts** and give it
+   permission on `youtube.com` (choose **Always Allow** so it runs on every visit).
+3. Open the Userscripts app, tap **+**, create a new script, and paste the
+   contents of `youtube-no-shorts.user.js`.
+4. Optional, for ads: install **AdGuard** (free) and enable its Safari content
+   blockers under Settings → Apps → Safari → Extensions.
+5. Go to `m.youtube.com`, sign in, then **Share → Add to Home Screen**.
 
-Safari extensions can't run the userscript, so `/shorts/` links still open the swipe
-player here — but the filter rules mean you should almost never see a Shorts link to
-tap in the first place.
+---
 
-## Trade-offs versus the native app
+## Checking it works
 
-- Background audio is weaker than a real app (Orion handles it better than Safari).
-- No system-level Picture-in-Picture in every case.
-- Ads: use a content blocker; YouTube web ads are blocked well by uBlock Origin.
-- Upside: your account works, playback never cuts off, and Shorts are gone from
-  channel pages too.
+- The **Shorts button** should be gone from the bottom bar.
+- The **Shorts shelf** should be gone from Home and from search results.
+- On a channel page, the **Shorts tab** should be gone.
+- Opening a Shorts link should land you in the **normal player** with a scrubber,
+  not the swipe feed.
 
-## Maintenance
+## If Shorts come back later
 
-YouTube renames its custom elements every so often. If Shorts reappear, the rules
-keyed on `:has(a[href^="/shorts/"])` are the durable ones — they match on the URL
-rather than the element name. Update the tag names in `no-shorts.txt` to match
-whatever YouTube ships next.
+YouTube renames its custom elements every so often. The rules that key on
+`a[href^="/shorts/"]` match on the URL rather than the element name, so they are
+the durable ones. If something reappears, find the new element name (long-press →
+Inspect on desktop Safari with the phone connected) and add it to the `CSS` block
+in the userscript. The `sweep()` function at the bottom also catches anything
+identified purely by the visible text "Shorts".
