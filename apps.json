@@ -15,13 +15,21 @@
       "iconURL": "https://raw.githubusercontent.com/rrogerc/youtube-noshorts/main/icon.png",
       "tintColor": "FF0000",
       "category": "social",
-      "version": "20.32.4",
+      "version": "21.28.3",
       "versionDate": "2026-08-20",
-      "versionDescription": "Pairs stock YTLite 5.2b3 with YouTube 20.32.4 - the exact combination a user reported playing fine in YTLite issue #364, where 5.2b4 broke playback on the same base. All previous builds used YTLite 5.2.2, much newer than any version reported working. Shorts removal via NoShortsEver. Requires DELETE + REINSTALL (version goes down).",
-      "downloadURL": "https://github.com/rrogerc/youtube-noshorts/releases/download/v20.32.4/YouTube-NoShorts-20.32.4.ipa",
-      "size": 119911300,
-      "minOSVersion": "15.0",
+      "versionDescription": "YouTube 21.28.3 (passes the forced-update wall that blocks 19.33.2 and 20.32.4) paired with stock YTLite 5.2b3 instead of 5.2.2. Issue #364 reports 5.2b3 playing fine where 5.2b4+ cut off on the same base. Shorts removal via NoShortsEver. Genuine version string.",
+      "downloadURL": "https://github.com/rrogerc/youtube-noshorts/releases/download/v21.28.3-ytl52b3/YouTube-NoShorts-21.28.3-ytl52b3.ipa",
+      "size": 129129072,
+      "minOSVersion": "16.0",
       "versions": [
+        {
+          "version": "21.28.3",
+          "date": "2026-08-20",
+          "localizedDescription": "YouTube 21.28.3 (passes the forced-update wall that blocks 19.33.2 and 20.32.4) paired with stock YTLite 5.2b3 instead of 5.2.2. Issue #364 reports 5.2b3 playing fine where 5.2b4+ cut off on the same base. Shorts removal via NoShortsEver. Genuine version string.",
+          "downloadURL": "https://github.com/rrogerc/youtube-noshorts/releases/download/v21.28.3-ytl52b3/YouTube-NoShorts-21.28.3-ytl52b3.ipa",
+          "size": 129129072,
+          "minOSVersion": "16.0"
+        },
         {
           "version": "20.32.4",
           "date": "2026-08-20",
