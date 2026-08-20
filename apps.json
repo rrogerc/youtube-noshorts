@@ -18,7 +18,7 @@
       "version": "21.28.3",
       "versionDate": "2026-08-20",
       "versionDescription": "Reports the genuine YouTube version (21.28.3) to InnerTube. Earlier 21.28.3.x builds advertised a four-component version that is not a real YouTube release, which is the documented trigger for the 'Something went wrong' playback cutoff. Requires DELETE + REINSTALL (the version number goes down). Same Shorts removal.",
-      "downloadURL": "https://github.com/rrogerc/youtube-noshorts/releases/download/v21.28.3-clean/YouTube-NoShorts-21.28.3.ipa",
+      "downloadURL": "https://github.com/rrogerc/youtube-noshorts/releases/download/v21.28.3-clean/YouTube-NoShorts-21.28.3-clean.ipa",
       "size": 122018008,
       "minOSVersion": "16.0",
       "versions": [
@@ -26,7 +26,7 @@
           "version": "21.28.3",
           "date": "2026-08-20",
           "localizedDescription": "Reports the genuine YouTube version (21.28.3) to InnerTube. Earlier 21.28.3.x builds advertised a four-component version that is not a real YouTube release, which is the documented trigger for the 'Something went wrong' playback cutoff. Requires DELETE + REINSTALL (the version number goes down). Same Shorts removal.",
-          "downloadURL": "https://github.com/rrogerc/youtube-noshorts/releases/download/v21.28.3-clean/YouTube-NoShorts-21.28.3.ipa",
+          "downloadURL": "https://github.com/rrogerc/youtube-noshorts/releases/download/v21.28.3-clean/YouTube-NoShorts-21.28.3-clean.ipa",
           "size": 122018008,
           "minOSVersion": "16.0"
         },
