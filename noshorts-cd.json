@@ -1,0 +1,36 @@
+{
+  "name": "YT No Shorts (no comments + dislikes)",
+  "identifier": "com.rogerchen.ytnoshorts.cd",
+  "subtitle": "Shorts and comments removed, dislike counts restored",
+  "description": "Personal SideStore source: YouTube with Shorts removed at the code level, the comments section removed, and dislike counts restored via Return YouTube Dislike.",
+  "iconURL": "https://raw.githubusercontent.com/rrogerc/youtube-noshorts/main/icon.png",
+  "tintColor": "FF0000",
+  "apps": [
+    {
+      "name": "YouTube",
+      "bundleIdentifier": "com.google.ios.youtube",
+      "developerName": "rogerchen",
+      "subtitle": "No Shorts, no comments, real dislikes.",
+      "localizedDescription": "YouTube with Shorts permanently removed, the comments section removed, and dislike counts restored.\n\nBase YouTube 21.20.4 + YTLite 5.2.2 + NoShortsEver + Return YouTube Dislike 1.14.2 + YTABConfig 1.9.2.\n\nInstalls over an existing build in place, so the signed-in session is preserved.",
+      "iconURL": "https://raw.githubusercontent.com/rrogerc/youtube-noshorts/main/icon.png",
+      "tintColor": "FF0000",
+      "category": "social",
+      "version": "21.20.4",
+      "versionDate": "2026-08-29",
+      "versionDescription": "Adds comments-section removal (NoShortsEver) and Return YouTube Dislike 1.14.2 to the known-good 21.20.4 build. Base IPA, YTLite 5.2.2 and YTABConfig 1.9.2 are byte-identical to v21.20.4-ab.",
+      "downloadURL": "https://github.com/rrogerc/youtube-noshorts/releases/download/v21.20.4-cd/YouTube-NoShorts-21.20.4-cd.ipa",
+      "size": 133233053,
+      "minOSVersion": "16.0",
+      "versions": [
+        {
+          "version": "21.20.4",
+          "date": "2026-08-29",
+          "localizedDescription": "Adds comments-section removal and Return YouTube Dislike 1.14.2 to the known-good 21.20.4 build.",
+          "downloadURL": "https://github.com/rrogerc/youtube-noshorts/releases/download/v21.20.4-cd/YouTube-NoShorts-21.20.4-cd.ipa",
+          "size": 133233053,
+          "minOSVersion": "16.0"
+        }
+      ]
+    }
+  ]
+}
