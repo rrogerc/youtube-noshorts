@@ -11,23 +11,23 @@
       "bundleIdentifier": "com.google.ios.youtube",
       "developerName": "rogerchen",
       "subtitle": "No Shorts, no comments, dislike estimates.",
-      "localizedDescription": "YouTube with Shorts removed, comment cards removed, and estimated dislike counts.\n\nFixes the comment carousel and compact dislike button in the current layout. Based on the same YouTube 21.20.4 build.\n\nInstall over the existing YouTube app to preserve its data and sign-in.",
+      "localizedDescription": "YouTube with Shorts removed, comments removed, and estimated dislike counts.\n\nRemoves the blank space left by the hidden comment card. Based on YouTube 21.20.4.\n\nInstall over the existing app to preserve its data and sign-in.",
       "iconURL": "https://raw.githubusercontent.com/rrogerc/youtube-noshorts/main/icon.png",
       "tintColor": "FF0000",
       "category": "social",
       "version": "21.20.4",
       "versionDate": "2026-09-13",
-      "versionDescription": "Fixes the comments card still appearing in the current layout. Adds visible dislike estimates to the compact toolbar.",
-      "downloadURL": "https://github.com/rrogerc/youtube-noshorts/releases/download/v21.20.4-cd2/YouTube-NoShorts-21.20.4-cd2.ipa",
-      "size": 133235657,
+      "versionDescription": "Removes the blank space below video controls by collapsing the comments layout. Includes dislike estimates.",
+      "downloadURL": "https://github.com/rrogerc/youtube-noshorts/releases/download/v21.20.4-cd3/YouTube-NoShorts-21.20.4-cd3.ipa",
+      "size": 133236430,
       "minOSVersion": "16.0",
       "versions": [
         {
           "version": "21.20.4",
           "date": "2026-09-13",
-          "localizedDescription": "Fixes the comments card still appearing in the current layout. Adds visible dislike estimates to the compact toolbar.",
-          "downloadURL": "https://github.com/rrogerc/youtube-noshorts/releases/download/v21.20.4-cd2/YouTube-NoShorts-21.20.4-cd2.ipa",
-          "size": 133235657,
+          "localizedDescription": "Removes the blank space below video controls by collapsing the comments layout. Includes dislike estimates.",
+          "downloadURL": "https://github.com/rrogerc/youtube-noshorts/releases/download/v21.20.4-cd3/YouTube-NoShorts-21.20.4-cd3.ipa",
+          "size": 133236430,
           "minOSVersion": "16.0"
         }
       ]
