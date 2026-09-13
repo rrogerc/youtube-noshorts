@@ -17,17 +17,17 @@
       "category": "social",
       "version": "21.20.4",
       "versionDate": "2026-09-13",
-      "versionDescription": "Removes like/dislike buttons and counts, plus view counts in video metadata. Collapses their layout space. Keeps Shorts and comments removed.",
-      "downloadURL": "https://github.com/rrogerc/youtube-noshorts/releases/download/v21.20.4-nostats/YouTube-NoShorts-21.20.4-nostats.ipa",
-      "size": 133195438,
+      "versionDescription": "Fixes recommendations turning black when opening a video or scrolling back to the top. Shorts, comments, rating controls, and view counts remain removed.",
+      "downloadURL": "https://github.com/rrogerc/youtube-noshorts/releases/download/v21.20.4-nostats2/YouTube-NoShorts-21.20.4-nostats2.ipa",
+      "size": 133195451,
       "minOSVersion": "16.0",
       "versions": [
         {
           "version": "21.20.4",
           "date": "2026-09-13",
-          "localizedDescription": "Removes like/dislike buttons and counts, plus view counts in video metadata. Collapses their layout space. Keeps Shorts and comments removed.",
-          "downloadURL": "https://github.com/rrogerc/youtube-noshorts/releases/download/v21.20.4-nostats/YouTube-NoShorts-21.20.4-nostats.ipa",
-          "size": 133195438,
+          "localizedDescription": "Fixes recommendations turning black when opening a video or scrolling back to the top. Shorts, comments, rating controls, and view counts remain removed.",
+          "downloadURL": "https://github.com/rrogerc/youtube-noshorts/releases/download/v21.20.4-nostats2/YouTube-NoShorts-21.20.4-nostats2.ipa",
+          "size": 133195451,
           "minOSVersion": "16.0"
         }
       ]
