@@ -1,6 +1,6 @@
 {
   "name": "YT No Shorts (no comments or counters)",
-  "identifier": "com.rogerchen.ytnoshorts.cd",
+  "identifier": "com.rogerchen.ytnoshorts.nostats",
   "subtitle": "No Shorts, comments, ratings, or view counts",
   "description": "Personal SideStore source: YouTube with Shorts, comments, like/dislike controls, and video view counts removed.",
   "iconURL": "https://raw.githubusercontent.com/rrogerc/youtube-noshorts/main/icon.png",

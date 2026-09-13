@@ -1,8 +1,8 @@
 {
-  "name": "YT No Shorts (comments fix + dislikes)",
+  "name": "YT No Shorts (no comments or counters)",
   "identifier": "com.rogerchen.ytnoshorts.cd2",
-  "subtitle": "Comments removed, dislike counts for the current layout",
-  "description": "Personal SideStore source: YouTube with Shorts and comment cards removed, plus estimated dislike counts from Return YouTube Dislike.",
+  "subtitle": "No Shorts, comments, ratings, or view counts",
+  "description": "Personal SideStore source: YouTube with Shorts, comments, like/dislike controls, and video view counts removed.",
   "iconURL": "https://raw.githubusercontent.com/rrogerc/youtube-noshorts/main/icon.png",
   "tintColor": "FF0000",
   "apps": [
@@ -10,24 +10,24 @@
       "name": "YouTube",
       "bundleIdentifier": "com.google.ios.youtube",
       "developerName": "rogerchen",
-      "subtitle": "No Shorts, no comments, dislike estimates.",
-      "localizedDescription": "YouTube with Shorts removed, comments removed, and estimated dislike counts.\n\nRemoves the blank space left by the hidden comment card. Based on YouTube 21.20.4.\n\nInstall over the existing app to preserve its data and sign-in.",
+      "subtitle": "No Shorts, comments, ratings, or view counts.",
+      "localizedDescription": "YouTube with Shorts and comments removed, plus clean removal of like/dislike buttons and video view counts.\n\nKeeps titles, channel links, dates, descriptions, and the remaining video controls. Based on YouTube 21.20.4.\n\nInstall over the existing app to preserve its data and sign-in.",
       "iconURL": "https://raw.githubusercontent.com/rrogerc/youtube-noshorts/main/icon.png",
       "tintColor": "FF0000",
       "category": "social",
       "version": "21.20.4",
       "versionDate": "2026-09-13",
-      "versionDescription": "Removes the blank space below video controls by collapsing the comments layout. Includes dislike estimates.",
-      "downloadURL": "https://github.com/rrogerc/youtube-noshorts/releases/download/v21.20.4-cd3/YouTube-NoShorts-21.20.4-cd3.ipa",
-      "size": 133236430,
+      "versionDescription": "Removes like/dislike buttons and counts, plus view counts in video metadata. Collapses their layout space. Keeps Shorts and comments removed.",
+      "downloadURL": "https://github.com/rrogerc/youtube-noshorts/releases/download/v21.20.4-nostats/YouTube-NoShorts-21.20.4-nostats.ipa",
+      "size": 133195438,
       "minOSVersion": "16.0",
       "versions": [
         {
           "version": "21.20.4",
           "date": "2026-09-13",
-          "localizedDescription": "Removes the blank space below video controls by collapsing the comments layout. Includes dislike estimates.",
-          "downloadURL": "https://github.com/rrogerc/youtube-noshorts/releases/download/v21.20.4-cd3/YouTube-NoShorts-21.20.4-cd3.ipa",
-          "size": 133236430,
+          "localizedDescription": "Removes like/dislike buttons and counts, plus view counts in video metadata. Collapses their layout space. Keeps Shorts and comments removed.",
+          "downloadURL": "https://github.com/rrogerc/youtube-noshorts/releases/download/v21.20.4-nostats/YouTube-NoShorts-21.20.4-nostats.ipa",
+          "size": 133195438,
           "minOSVersion": "16.0"
         }
       ]
